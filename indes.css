@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: url(images/pexels-mateusz-dach-450035.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    height: 10vh;
+}
+
+.background {
+    display: block;
+    color: #09050e;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 40px;
+    margin: 12px 0;
+    background: rgba(88, 85, 85, 0.4);
+    border-radius: 14px;
+    width: 378px;
+}
+
+.background img {
+
+    /* position: absolute; */
+    display: block;
+    width: 70px;
+    font-size: small;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 137px;
+    padding: 11px;
+}
+
+.background h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.test {
+    float: left;
+    position: initial;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+    /* border-bottom: 1px solid silver;*/
+}
+
+.fa-solid {
+    position: absolute;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    margin-left: 2%;
+    margin-top: 9px;
+    justify-content: center;
+
+}
+
+.fa {
+    position: absolute;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    line-height: 2;
+    margin-left: 2%;
+    margin-top: 9px;
+    justify-content: center;
+
+}
+
+.test span {
+    width: 40px;
+    line-height: 20px;
+}
+
+.test input {
+    font-size: 18px;
+    display: block;
+    width: 77%;
+    height: 6%;
+    padding: 5px 10px;
+    background: none;
+    background-image: none;
+    border: 1px solid #f3f8f7;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+    transition: border-color .25s ease, box-shadow .25s ease;
+    outline: none;
+}input[type="email"]
+{
+    text-transform: lowercase;
+}
+input[type="text"],input[type="password"],input[type="email"]
+{
+    padding: 6px 42px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(7, 1, 1);
+    opacity: 1;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.button-block {
+    display: block;
+    width: 100%;
+}.button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #1ab188;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    padding: 10px 3px 10px 14px;
+    text-align: center;
+    align-items: center;
+}
+.button:hover, .button:focus {
+    background: #179b77;
+}
+
+.background form .error-msg {
+    display: block;
+    color: rgb(0, 255, 255);
+    font-size: 18px;
+    width: 80%;
+    padding: 22px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 20 0 15px;
+}
